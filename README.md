@@ -33,7 +33,7 @@ A professional, innovative CRM platform with customer segmentation, campaign del
    npm run dev
    ```
 4. **Open Swagger docs**
-   Visit [http://localhost:5000/api-docs](http://localhost:5000/api-docs)
+   Visit [http://localhost:5173/api-docs](http://localhost:5173/api-docs)
 
 ## Architecture
 
@@ -50,3 +50,7 @@ A professional, innovative CRM platform with customer segmentation, campaign del
 - OTP is in-memory (use Redis for prod)
 - Vendor API is simulated
 - No email sending (SMS only dummy)
+
+## Public link = https://cerulean-khapse-103606.netlify.app/dashboard
+
+## by hridaya madaan
