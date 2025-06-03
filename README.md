@@ -13,7 +13,7 @@ A professional, innovative CRM platform with customer segmentation, campaign del
 - Swagger API docs at `/api-docs`
 
 ## Tech Stack
-
+-React.js , typescript ,  Tailwind Frame Works , Farmer Motion
 - Node.js, Express, MongoDB, Redis Streams
 - Passport.js (Google OAuth2), JWT, OpenAI API
 
@@ -32,8 +32,8 @@ A professional, innovative CRM platform with customer segmentation, campaign del
    ```
    npm run dev
    ```
-4. **Open Swagger docs**
-   Visit [http://localhost:5173/api-docs](http://localhost:5173/api-docs)
+4. **Open **
+   Visit [https://cerulean-khapse-103606.netlify.app/dashboard](https://cerulean-khapse-103606.netlify.app/dashboard)
 
 ## Architecture
 
