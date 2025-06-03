@@ -40,7 +40,28 @@ A professional, innovative CRM platform with customer segmentation, campaign del
 - REST API (Express)
 - Async ingestion and campaign delivery via Redis Streams consumer
 - AI endpoints for natural language processing
-
+Touchpoint/
+├── backend/
+│   └── src/
+│       ├── config/            # DB, Redis configuration
+│       ├── controllers/       # Business logic for API endpoints
+│       ├── middleware/        # Auth, validation, error handling
+│       ├── models/            # MongoDB schemas (Customer, Order, User, Campaign, etc.)
+│       ├── pubsub/            # Redis Streams publisher/consumer for async jobs
+│       ├── routes/            # Express routers for all API endpoints
+│       ├── utils/             # Helpers (OTP, AI integration, SMS)
+│       ├── app.js             # Express app setup
+│       └── server.js          # Server entrypoint
+├── frontend/
+│   └── src/
+│       ├── components/        # UI elements (tables, forms, sidebar, etc.)
+│       ├── lib/               # API client utilities
+│       ├── pages/             # Next.js or React router pages
+│       ├── styles/            # CSS/theme files
+│       └── public/            # Static assets
+├── .env                       # Backend environment variables
+├── .env.local                 # Frontend environment variables
+├── README.md
 ## AI Tools
 
 - OpenAI GPT-4 for rule parsing, message suggestion, summaries
